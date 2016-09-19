@@ -13,3 +13,5 @@ Add the existing files.
 Commit branch.
 
 Create pull request.
+
+Bonus! Free git tutorial on CodeSchool: https://www.codeschool.com/learn/git
