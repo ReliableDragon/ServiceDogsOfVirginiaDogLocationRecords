@@ -30,7 +30,8 @@
     #right td {padding-right:15px; text-align:left;}
 </style>
 <?php
-    $servername = "mysql.servicedogsva.org";
+    //$servername = "mysql.servicedogsva.org";
+    $servername = "localhost"; // This will connect locally. Much faster! :)
     $username = "ked9ua";
     $password = "M!kado2014";
     $dbname = "sdvrec";
