@@ -1,0 +1,21 @@
+body {background-image:url(./bg.jpg); background-size:cover; font-family:Adobe Garamond Pro;}
+
+#menu {height:75px; background-color:#72A68F;}
+#menu table {text-align:center; color:white; position:absolute; top:25px; right:35px; font-size:28px; font-family:Century Gothic; width:800px;}
+#menu td:hover {color:#FFDB91}
+#menu a {color:inherit; text-decoration:inherit}
+
+#head {position:absolute; top:125px; left:37px; }
+h1{font-family:century gothic;}
+
+#left {position:absolute; top:190px; left:35px; height:75%; width:45%;}
+#right {position:absolute;top:190px; right:35px; height:75%; width:45%; background-color:white; border:solid thin; padding-left:20px;}
+
+#sad td{padding-bottom:20px}
+#sad td:hover {opacity:.90}
+#sad img{width:100px; border:solid #FFDB91}
+.sh {display:none}
+select{font-family:century gothic; font-size:9pt;}
+input{font-family:century gothic; font-size:9pt}
+#blurb span {font-size:15pt; color:#CE1019}
+#right td {padding-right:15px; text-align:left;}
