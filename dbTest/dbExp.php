@@ -1,7 +1,10 @@
 <?php
-$servername = "mysql.servicedogsva.org";
-$username = "ked9ua";
-$password = "M!kado2014";
+//$servername = "mysql.servicedogsva.org";
+//$username = "ked9ua";
+//$password = "M!kado2014";
+$servername = "localhost";
+$username = "root";
+$password = "servicedogs";
 $dbname = "sdvrec";
 
 // Create connection
