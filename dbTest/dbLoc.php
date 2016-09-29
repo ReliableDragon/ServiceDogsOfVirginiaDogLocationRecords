@@ -1,7 +1,6 @@
 <html><head><link rel=stylesheet href=db.css></head><script src=db.js></script>
 <?php
-    //$servername = "mysql.servicedogsva.org";
-    $servername = "localhost"; // This will connect locally. Much faster! :)
+    $servername = "mysql.servicedogsva.org";
     $username = "ked9ua";
     $password = "M!kado2014";
     $dbname = "sdvrec";
