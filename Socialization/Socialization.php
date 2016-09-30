@@ -1,3 +1,7 @@
+<!-- Socialization form. Currently has no CSS or any other bells
+  and whistles, but is functional. Uses Socialization.js to pull
+  JS functions from, and AddSocializationRecord.php as the target
+  for its AJAX request. -->
 <html>
   <head>
     <script type="text/javascript" src="Socialization.js"></script>

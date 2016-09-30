@@ -1,9 +1,12 @@
+// Basically a dummy function for testing.
 function AlertOnSuccess() {
   alert("Records Updated!");
 }
 
+// Calls AddSocializationRecord.php via AJAX for Socialization.php
 function asyncDbCall() {
   
+  // Mostly boilerplate.
   var xhttp = new XMLHttpRequest();
   xhttp.open("POST", "AddSocializationRecord.php", true);
   xhttp.onreadystatechange = function()  {
@@ -19,6 +22,7 @@ function asyncDbCall() {
   };
   
   var elems = document.getElementsByClassName("formEntry");
+  // Set up post arguments.
   var params = "";
   for (var i = 0; i < elems.length; i++) {
     if (i !== 0) {
@@ -35,6 +39,7 @@ function asyncDbCall() {
   xhttp.setRequestHeader("Expires", 0);
   xhttp.setRequestHeader("Last-Modified", new Date(0));
   xhttp.setRequestHeader("If-Modified-Since", new Date(0));
+  // Tell the XMLRequest that we're sending POST arguments.
   
   xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
   xhttp.send(params);
